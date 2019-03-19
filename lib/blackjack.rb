@@ -66,6 +66,5 @@ def runner
   until cards < losePoint
     cards += hit?
   end
-  end_game
 end
     
