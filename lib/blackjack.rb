@@ -42,11 +42,11 @@ def hit? (num)
   if input == s
     num
     elsif input == h
-    deal_card
+    postHit = num + deal_card
   else
     invalid_command
   end
-  display_card_total(num)
+  display_card_total(postHit)
 end
 
 def invalid_command
