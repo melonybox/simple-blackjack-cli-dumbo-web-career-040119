@@ -42,7 +42,7 @@ def hit?
   case input
     when 'h'
       deal_card
-    when 's'
+    when 
       
     
   
