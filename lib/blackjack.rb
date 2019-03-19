@@ -64,6 +64,7 @@ def runner
   cards = initial_round
   losePoint = 21
   until cards < losePoint
+    display_card_total(cards)
     cards += hit?
   end
   end_game(cards)
