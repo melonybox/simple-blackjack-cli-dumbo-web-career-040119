@@ -68,7 +68,7 @@ def runner
   until cards < losePoint
     display_card_total(currentCards)
     hit?(currentCards)
-    currentCards += hit?
+    currentCards += currentCards
   end
   end_game(currentCards)
 end
