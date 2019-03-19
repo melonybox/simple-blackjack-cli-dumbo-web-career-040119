@@ -65,7 +65,7 @@ def runner
   display_card_total(cards)
   currentCards = cards
   losePoint = 21
-  until cards < losePoint
+  until currentCards < losePoint
     display_card_total(currentCards)
     hit?(currentCards)
     currentCards += currentCards
