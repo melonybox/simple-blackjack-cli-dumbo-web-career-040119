@@ -40,12 +40,13 @@ def hit? (num)
   prompt_user
   input = get_user_input
   if input == s
+    num
     elsif input == h
     deal_card
   else
     invalid_command
   end
-  
+  display_card_total(num)
 end
 
 def invalid_command
