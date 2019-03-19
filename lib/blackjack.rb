@@ -42,7 +42,9 @@ def hit?
   case input
     when 'h'
       deal_card
-    when 
+    when != 'h' || 's'
+      invalid_command
+  end
       
     
   
