@@ -42,7 +42,7 @@ def hit? (num)
   if inputUser == 's'
     num
     elsif inputUser == 'h'
-    postHit = num + deal_card
+    num + deal_card
   else
     invalid_command
   end
