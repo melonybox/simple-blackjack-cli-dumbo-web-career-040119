@@ -37,10 +37,15 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  
+  
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
