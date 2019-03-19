@@ -38,10 +38,9 @@ end
 def hit? (num)
   # code hit? here
   prompt_user
-  input = get_user_input
-  if input == s
+  if get_user_input == 's'
     num
-    elsif input == h
+    elsif get_user_input == 'h'
     postHit = num + deal_card
   else
     invalid_command
