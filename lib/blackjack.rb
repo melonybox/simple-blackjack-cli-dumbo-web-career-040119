@@ -63,9 +63,7 @@ def runner
   welcome
   currentCards = initial_round
   until currentCards > 21
-    display_card_total(currentCards)
-    hit?(currentCards)
-    currentCards += currentCards
+    currentCards
   end
   end_game(currentCards)
 end
