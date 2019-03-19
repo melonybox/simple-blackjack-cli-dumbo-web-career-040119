@@ -66,6 +66,6 @@ def runner
   until cards < losePoint
     cards += hit?
   end
-  puts end_game(cards)
+  end_game
 end
     
