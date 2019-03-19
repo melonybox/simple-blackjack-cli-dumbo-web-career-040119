@@ -39,13 +39,6 @@ def hit?
   # code hit? here
   prompt_user
   input = get_user_input
-  case input
-    when 'h'
-      deal_card
-    when != 'h' || 's'
-      invalid_command
-  end
-  display_card_total
 end
 
 def invalid_command
