@@ -61,9 +61,9 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  counter = 21
-  until counter < display_card_total
+  cards = initial_round
+  losePoint = 21
+  until cards < losePoint
     hit?
     
   
