@@ -46,7 +46,6 @@ def hit? (num)
   else
     invalid_command
   end
-  display_card_total(postHit)
 end
 
 def invalid_command
