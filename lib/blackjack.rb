@@ -62,5 +62,8 @@ def runner
   # code runner here
   welcome
   initial_round
+  counter = 21
+  until
+  
 end
     
