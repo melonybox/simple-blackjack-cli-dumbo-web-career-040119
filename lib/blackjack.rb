@@ -40,7 +40,11 @@ def hit?
   prompt_user
   input = get_user_input
   case input
-  when
+    when 'h'
+      deal_card
+    when 's'
+      
+    
   
 end
 
