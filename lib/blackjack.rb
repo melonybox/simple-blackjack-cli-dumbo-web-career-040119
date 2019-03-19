@@ -62,11 +62,13 @@ def runner
   # code runner here
   welcome
   cards = initial_round
+  display_card_total(cards)
+  currentCards = cards
   losePoint = 21
   until cards < losePoint
-    display_card_total(cards)
-    cards += hit?
+    display_card_total(currentCards)
+    currentCards += hit?
   end
-  end_game(21)
+  end_game(currentCards)
 end
     
